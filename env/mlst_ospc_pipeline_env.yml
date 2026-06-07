@@ -1,0 +1,40 @@
+name: mlst_ospc_pipeline_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+channel_priority: strict
+dependencies:
+  - python=3.12
+  - r-base=4.5.3
+  - seqkit=2.13.0
+  - kma=1.6.10
+  - mafft=7.526
+  - iqtree=3.1.1
+  - bbmap=39.81
+  - spades=4.2.0
+  - hybpiper=2.3.4
+  - blast=2.17.0
+  - bwa=0.7.19
+  - samtools
+  - pandas
+  - r-pacman
+  - r-tidyverse
+  - r-readr
+  - r-dplyr
+  - r-tidyr
+  - r-stringr
+  - r-lubridate
+  - r-purrr
+  - r-tibble
+  - r-ggplot2
+  - r-scales
+  - r-ggtext
+  - r-ggnewscale
+  - r-ape
+  - r-phangorn
+  - r-inext
+  - r-svglite
+  - r-ragg
+  - bioconductor-ggtree
+  - bioconductor-treeio
